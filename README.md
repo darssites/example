@@ -9,7 +9,9 @@ A skeleton plugin for use with dars.
 * Then that folder is placed in the plugins folder of your dars project.
 
 * Finally, edit your `config.yml` and add in the section:
+    ```
     plugins:
-      - [plugin folder name]
+      - plugin name
+    ```
       
 * Voila!
