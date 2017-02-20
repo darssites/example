@@ -10,3 +10,7 @@ def site(page):
 	print("Site created.")
 	# Doing something with the given site (printing the title)
 	print("Site title: " + page.title)
+
+def closesite(page):
+	# This code runs just before the user stops editing the site.
+	print("Site closed: " + page.title)
